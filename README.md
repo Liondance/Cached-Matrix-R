@@ -7,9 +7,9 @@ The example "Caching the mean of a vector", given in the assignment, uses a
 caching scheme that is prone to error. A better solution involves the object 
 in question (the matrix in our case) to implement its own caching logic, 
 instead of relying on external functions to do so. The cachematrix.R file 
-contains code impolementing two variations of the assignment: the first 
+contains code implementing two variations of the assignment: the first 
 variation follows the same scheme suggested in the vector example. The 
-other, which we consider superior, relies on the object to handle 
+second one, which we consider superior, relies on the object to handle 
 its own caching. This leads to better encapsulation.
 
 A test harness is provided to test the functions. The test harness is a good 
