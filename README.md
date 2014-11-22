@@ -23,4 +23,5 @@ your own machine.
 Testing instructions:
 
 > source("cachematrix.R");
+
 > cacheMatrixTest()
